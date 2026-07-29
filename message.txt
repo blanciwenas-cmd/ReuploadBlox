@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reuploadblox - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">Reupload<span>blox</span></a>
+            <nav class="nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="games.html">Games</a>
+                <a href="catalog.html">Catalog</a>
+                <a href="avatar.html">Avatar</a>
+                <a href="builderclub.html">Builders Club</a>
+                <a href="profile.html">Profile</a>
+            </nav>
+            <div class="header-right">
+                <span id="user-display"></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content-box">
+            <h1>Welcome to Reuploadblox</h1>
+            <p>Experience the classic Roblox look and feel from around 2016. Build, play, and create with friends in a nostalgic environment.</p>
+            <p class="text-muted mt-10">This is a fan recreation for educational and nostalgic purposes. Not affiliated with Roblox Corporation.</p>
+            <div class="mt-10">
+                <a href="games.html" class="btn btn-green">Play Games</a>
+                <a href="avatar.html" class="btn btn-blue">Customize Avatar</a>
+                <a href="builderclub.html" class="btn btn-orange">Join Builders Club</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="content-box">
+                    <h2>Featured Games</h2>
+                    <div class="games-grid">
+                        <a href="games.html" class="game-card">
+                            <div class="game-thumb">Work at a Pizza Place</div>
+                            <div class="game-info">
+                                <h3>Work at a Pizza Place</h3>
+                                <div class="stats">Playing: 12,450</div>
+                            </div>
+                        </a>
+                        <a href="games.html" class="game-card">
+                            <div class="game-thumb" style="background:linear-gradient(135deg,#e74c3c,#c0392b)">Natural Disaster Survival</div>
+                            <div class="game-info">
+                                <h3>Natural Disaster Survival</h3>
+                                <div class="stats">Playing: 8,230</div>
+                            </div>
+                        </a>
+                        <a href="games.html" class="game-card">
+                            <div class="game-thumb" style="background:linear-gradient(135deg,#27ae60,#1e8449)">MeepCity</div>
+                            <div class="game-info">
+                                <h3>MeepCity</h3>
+                                <div class="stats">Playing: 15,100</div>
+                            </div>
+                        </a>
+                        <a href="games.html" class="game-card">
+                            <div class="game-thumb" style="background:linear-gradient(135deg,#8e44ad,#6c3483)">Phantom Forces</div>
+                            <div class="game-info">
+                                <h3>Phantom Forces</h3>
+                                <div class="stats">Playing: 9,870</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box">
+            <h2>What's New</h2>
+            <ul style="padding-left:20px; font-size:14px; line-height:1.8;">
+                <li>Classic 2016-style interface restored</li>
+                <li>Avatar customization with classic faces</li>
+                <li>Builders Club membership options</li>
+                <li>Catalog browsing experience</li>
+                <li>Sound effects from the era</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2016-2026 Reuploadblox. A nostalgic recreation.</p>
+        <p>
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="avatar.html">Avatar</a>
+            <a href="builderclub.html">Builders Club</a>
+            <a href="login.html">Login</a>
+        </p>
+        <p class="text-muted" style="margin-top:8px;">All assets are customizable. Place your own images in the faces/, badges/, images/ folders.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
